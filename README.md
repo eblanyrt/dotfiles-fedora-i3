@@ -59,14 +59,14 @@ After that, you can follow these instructions:
 
 ### Rofi Themes
 1. Open `Rofi Theme Selector` application.
-2. Scroll down and select the "tokyonight_big1 by w8ste"/
-3. Click "Enter".
+2. Scroll down and select the "tokyonight_big1 by w8ste".
+3. Press "Enter".
 4. Press "alt+a" to accept the new theme.
 
 ### Wallpaper
-1. Download the wallpaper [here](https://images5.alphacoders.com/114/1149233.png)
-2. Move the image to `~/Pictures` directory
-3. I suggest to rename the image file to `yuri_wall.png`
+1. Download the wallpaper [here](https://images5.alphacoders.com/114/1149233.png).
+2. Move the image to `~/Pictures` directory.
+3. I suggest to rename the image file to `yuri_wall.png`.
 4. Open the i3 config:
     ```
     $ nano .config/i3/config
