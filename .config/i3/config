@@ -230,7 +230,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Set custom wallpaper
-#exec_always feh --bg-fill ~/Pictures/yuri_minimalist_2.png
+#exec_always feh --bg-fill ~/Pictures/yuri_wall.png
 
 # Set picom to always run
 exec --no-startup-id picom 
