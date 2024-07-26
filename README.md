@@ -3,6 +3,7 @@ My personal dotfiles for Fedora with i3WM
 
 ## Table of contents
 * [Information](#information)
+* [Showcase](#showcase)
 * [Installation](#installation)
 * [Applying Themes](#applying-themes)
     * [GTK Themes and Icons](#gtk-themes-and-icons)
@@ -21,6 +22,13 @@ My personal dotfiles for Fedora with i3WM
 - Compositor : [Picom](https://github.com/yshui/picom)
 - Tiling : [i3-alternating-layout](https://github.com/olemartinorg/i3-alternating-layout)
 - Prompt Customization : [Starship.rs](https://starship.rs/)
+
+## Showcase
+https://github.com/user-attachments/assets/8135b95d-cc6c-49a2-8396-983f2eef8603
+
+![WhatsApp Image 2024-07-03 at 21 41 01](https://github.com/user-attachments/assets/2c53e18d-6f0e-471a-aa61-557b607ad4f4)
+
+![screenshot-20240712-053100Z](https://github.com/user-attachments/assets/ea66b4ec-4437-4228-87ae-6a9337767993)
 
 ## Installation
 1. Clone the repo:
