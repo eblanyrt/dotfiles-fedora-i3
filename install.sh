@@ -7,7 +7,7 @@ echo " "
 
 # Installing dependencies
 echo "Installing dependencies..."
-sudo dnf install git python3-pip -y
+sudo dnf install git python3-pip fontawesome4-fonts -y
 echo " "
 
 # Installing and configuring kitty
@@ -31,7 +31,7 @@ echo "Installing rofi themes..."
 rm -rf ~/.config/rofi
 git clone https://github.com/w8ste/Tokyonight-rofi-theme.git ~/github_projects/Tokyonight-rofi-theme
 sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight.rasi /usr/share/rofi/themes
-sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight.rasi /usr/share/rofi/themes
+sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight_big1.rasi /usr/share/rofi/themes
 sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight_big2.rasi /usr/share/rofi/themes
 echo " "
 
