@@ -1,5 +1,5 @@
 # eblanyrT's Fedora i3 dotfiles
-My personal dotfiles for Fedora with i3WM, a simple yet decent-looking rice I've done for my first i3WM setup.the color scheme is inspired by Yuri from DDLC.
+My personal dotfiles for Fedora with i3WM, a simple yet decent-looking rice I've done for my first i3WM setup. The color scheme is inspired by Yuri from DDLC.
 
 ## Table of contents
 * [Information](#information)
