@@ -12,16 +12,17 @@ My personal dotfiles for Fedora with i3WM, a simple yet decent-looking rice I've
 * [Credits](#credits)
 
 ## Information
-- OS : Fedora Linux
-- WM : i3
-- Terminal : kitty
-- Bar : Bumblebee Status
-- Application Launcher : Rofi
-- GTK Theme : Sweet Ambar Blue Dark
-- Icons : Sweet Icons
-- Compositor : Picom
-- Tiling : i3-alternating-layout
-- Prompt Customization : Starship.rs
+|OS| Fedora Linux|
+|:-----|:-------:|
+|WM| i3|
+|Terminal| kitty|
+|Bar| Bumblebee Status|
+|Application Launcher| Rofi|
+|GTK Theme| Sweet Ambar Blue Dark|
+|Icons| Sweet Icons|
+|Compositor| Picom|
+|Tiling| i3-alternating-layout|
+|Prompt Customization| Starship|
 
 ## Showcase
 https://github.com/user-attachments/assets/8135b95d-cc6c-49a2-8396-983f2eef8603
