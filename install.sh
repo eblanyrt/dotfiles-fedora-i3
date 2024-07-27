@@ -97,4 +97,4 @@ sudo cp .config/i3/config ~/.config/i3
 echo " "
 
 echo "Installation Complete!"
-echo "Follow the instructions on README.md to apply theme on Rofi, GTK, Icons, etc.."
+echo "Follow the further instructions on README.md to apply themes..."
