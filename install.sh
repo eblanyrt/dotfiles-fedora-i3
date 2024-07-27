@@ -7,7 +7,7 @@ echo " "
 
 # Installing dependencies
 echo "Installing dependencies..."
-sudo dnf install git python3-pip fontawesome4-fonts -y
+sudo dnf install python3-pip fontawesome4-fonts -y
 echo " "
 
 # Installing and configuring kitty
@@ -23,16 +23,27 @@ echo "Creating directory for cloned projects from GitHub..."
 mkdir ~/github_projects
 echo " "
 
+# Handling GTK themes and icons
+echo "Creating directory for themes and icons..."
+mkdir ~/.themes
+mkdir ~/.icons
+echo " "
+echo "Moving GTK themes and icons to desired place..."
+cp -r themes/Sweet-Ambar-Blue-Dark ~/.themes
+cp -r icons/candy-icons ~/.icons
+echo " "
+
 # Installing rofi
 echo "Installing rofi..."
 sudo dnf install rofi -y
 echo " "
 echo "Installing rofi themes..."
 rm -rf ~/.config/rofi
-git clone https://github.com/w8ste/Tokyonight-rofi-theme.git ~/github_projects/Tokyonight-rofi-theme
-sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight.rasi /usr/share/rofi/themes
-sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight_big1.rasi /usr/share/rofi/themes
-sudo cp ~/github_projects/Tokyonight-rofi-theme/tokyonight_big2.rasi /usr/share/rofi/themes
+git clone https://github.com/w8ste/Tokyonight-rofi-theme.git ~/.config/rofi
+sudo mv ~/.config/rofi/tokyonight.rasi /usr/share/rofi/themes
+sudo mv ~/.config/rofi/tokyonight_big1.rasi /usr/share/rofi/themes
+sudo mv ~/.config/rofi/tokyonight_big2.rasi /usr/share/rofi/themes
+rm ~/.config/rofi/README.md
 echo " "
 
 # Installing bumblebee-status
