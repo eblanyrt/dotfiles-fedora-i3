@@ -95,6 +95,9 @@ echo " "
 echo "Create a new ~/.config/i3/config"
 sudo cp .config/i3/config ~/.config/i3
 echo " "
+echo "Changing ownership of the new ~/.config/i3/config"
+sudo chown "${USER:=$(/usr/bin/id -run)}:$USER" ~/.config/i3/config
+echo " "
 
 echo "Installation Complete!"
 echo "Follow the further instructions on README.md to apply themes..."
