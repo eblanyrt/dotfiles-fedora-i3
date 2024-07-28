@@ -18,7 +18,7 @@ My personal dotfiles for Fedora with i3WM, a simple yet decent-looking rice I've
 |Bar| Bumblebee Status|
 |Application Launcher| Rofi|
 |GTK Theme| Sweet Ambar Blue Dark|
-|Icons| Sweet Icons|
+|Icons| Candy Icons|
 |Compositor| Picom|
 |Tiling| i3-alternating-layout|
 |Prompt Customization| Starship|
