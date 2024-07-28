@@ -7,7 +7,6 @@ My personal dotfiles for Fedora with i3WM, a simple yet decent-looking rice I've
 * [Installation](#installation)
 * [Applying Themes](#applying-themes)
     * [GTK Themes and Icons](#gtk-themes-and-icons)
-    * [Rofi Themes](#rofi-themes)
     * [Wallpaper](#wallpaper)
 * [Credits](#credits)
 
