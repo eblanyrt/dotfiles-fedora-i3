@@ -44,7 +44,7 @@ sudo mv ~/.config/rofi/tokyonight.rasi /usr/share/rofi/themes
 sudo mv ~/.config/rofi/tokyonight_big1.rasi /usr/share/rofi/themes
 sudo mv ~/.config/rofi/tokyonight_big2.rasi /usr/share/rofi/themes
 rm ~/.config/rofi/README.md
-mkdir ~/.config/rofi
+rm ~/.config/rofi/config.rasi
 cp rofi/config.rasi ~/.config/rofi/
 echo " "
 
