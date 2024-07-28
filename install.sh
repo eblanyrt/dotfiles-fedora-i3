@@ -44,6 +44,7 @@ sudo mv ~/.config/rofi/tokyonight.rasi /usr/share/rofi/themes
 sudo mv ~/.config/rofi/tokyonight_big1.rasi /usr/share/rofi/themes
 sudo mv ~/.config/rofi/tokyonight_big2.rasi /usr/share/rofi/themes
 rm ~/.config/rofi/README.md
+cp rofi/config.rasi ~/.config/rofi/
 echo " "
 
 # Installing bumblebee-status

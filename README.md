@@ -63,12 +63,6 @@ After that, you can follow these instructions:
 5. Click "Apply" again.
 6. Reboot the system.
 
-### Rofi Themes
-1. Open `Rofi Theme Selector` application.
-2. Scroll down and select the "tokyonight_big1 by w8ste".
-3. Press "Enter".
-4. Press "alt+a" to accept the new theme.
-
 ### Wallpaper
 1. Download the wallpaper [here](https://images5.alphacoders.com/114/1149233.png).
 2. Move the image to `~/Pictures` directory.
