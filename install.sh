@@ -26,11 +26,16 @@ echo " "
 # Handling GTK themes and icons
 echo "Creating directory for themes and icons..."
 mkdir ~/.themes
+mkdir ~/.config/gtk-3.0
 mkdir ~/.icons
 echo " "
 echo "Moving GTK themes and icons to desired place..."
 cp -r themes/Sweet-Ambar-Blue-Dark ~/.themes
 cp -r icons/candy-icons ~/.icons
+echo " "
+echo "Applying GTK themes and icons..."
+cp gtk/.gtkrc-2.0 ~/
+cp gtk/settings.ini ~/.config/gtk-3.0/
 echo " "
 
 # Installing rofi
@@ -45,6 +50,8 @@ sudo mv ~/.config/rofi/tokyonight_big1.rasi /usr/share/rofi/themes
 sudo mv ~/.config/rofi/tokyonight_big2.rasi /usr/share/rofi/themes
 rm ~/.config/rofi/README.md
 rm ~/.config/rofi/config.rasi
+echo " "
+echo "Selecting rofi themes..."
 cp .config/rofi/config.rasi ~/.config/rofi/
 echo " "
 
