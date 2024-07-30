@@ -97,7 +97,7 @@ echo "Create backup for legacy ~/.bashrc"
 sudo mv ~/.bashrc ~/.old_bashrc
 echo " "
 echo "Create a new ~/.bashrc"
-sudo cp .config/.bashrc ~/
+sudo cp .bashrc ~/
 echo " "
 echo "Applying fonts..."
 sudo cp fonts/FiraCodeNerdFont-Regular.ttf ~/.local/share/fonts
