@@ -118,4 +118,4 @@ sudo chown "${USER:=$(/usr/bin/id -run)}:$USER" ~/.config/i3/config
 echo " "
 
 echo "Installation Complete!"
-echo "Follow the further instructions on README.md to apply themes..."
+echo "Please reboot the system to apply all changes..."

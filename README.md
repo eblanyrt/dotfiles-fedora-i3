@@ -5,9 +5,6 @@ My personal dotfiles for Fedora with i3WM, a simple yet decent-looking rice I've
 * [Information](#information)
 * [Showcase](#showcase)
 * [Installation](#installation)
-* [Applying Themes](#applying-themes)
-    * [GTK Themes and Icons](#gtk-themes-and-icons)
-    * [Wallpaper](#wallpaper)
 * [Credits](#credits)
 
 ## Information
@@ -44,38 +41,7 @@ https://github.com/user-attachments/assets/8135b95d-cc6c-49a2-8396-983f2eef8603
     cd dotfiles-fedora-i3
     ./install.sh
     ```
-
-## Applying Themes
-After the installation is done, do the following instructions to apply GTK Themes, Icons, Rofi Themes, etc.
-
-### GTK Themes and Icons
-You need to use `lxappearance` to apply GTK Themes and Icons, install it by using this command:
-```
-sudo dnf install lxappearance
-```
-
-After that, you can follow these instructions:
-1. Open the `lxappearance` application.
-2. Go to "Widget", and select "Sweet-Ambar-Blue-Dark".
-3. Click "Apply".
-4. Now go to "Icon Theme", and select "candy-icons".
-5. Click "Apply" again.
-6. Reboot the system.
-
-### Wallpaper
-1. Download the wallpaper [here](https://images5.alphacoders.com/114/1149233.png).
-2. Move the image to `~/Pictures` directory.
-3. I suggest to rename the image file to `yuri_wall.png`.
-4. Open the i3 config:
-    ```
-    nano .config/i3/config
-    ```
-5. Uncomment the `#exec_always feh --bg-fill ~/Pictures/yuri_wall.png`, so it becomes like this:
-    ```
-    # Set custom wallpaper
-    exec_always feh --bg-fill ~/Pictures/yuri_wall.png
-    ```
-6. Reset the i3 by using `Super+Shift+r` key.
+4. Reboot the system.
 
 ## Credits
 - Rofi Themes - https://github.com/w8ste/Tokyonight-rofi-theme
