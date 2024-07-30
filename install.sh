@@ -7,7 +7,7 @@ echo " "
 
 # Installing dependencies
 echo "Installing dependencies..."
-sudo dnf install python3-pip fontawesome4-fonts -y
+sudo dnf install python3-pip fontawesome4-fonts maim xclip xdotool -y
 echo " "
 
 # Installing and configuring kitty

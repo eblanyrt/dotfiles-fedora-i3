@@ -230,7 +230,7 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
 
 # Set custom wallpaper
-#exec_always feh --bg-fill ~/Pictures/yuri_wall.png
+exec_always feh --bg-fill ~/Pictures/yuri_wall.png
 
 # Set picom to always run
 exec --no-startup-id picom 
@@ -242,6 +242,11 @@ exec_always --no-startup-id alternating_layouts.py
 exec --no-startup-id xset s off
 exec --no-startup-id xset -dpms
 exec --no-startup-id xset s noblank
+
+# Screenshots utility
+# Visit https://dev.to/dianjuar/i3wm-screenshot-shortcuts-3n7b for tutorial
+bindsym $mod+Print exec --no-startup-id maim --format=png "/home/$USER/Pictures/Screenshots/screenshot-$(date -u +'%Y%m%d-%H%M%SZ').png"
+bindsym $mod+Shift+s exec --no-startup-id maim --format=png --select "/home/$USER/Pictures/Screenshots/screenshot-$(date -u +'%Y%m%d-%H%M%SZ').png"
 
 # Catpuccin color pastel
 set $rosewater #f5e0dc
