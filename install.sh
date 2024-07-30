@@ -10,17 +10,26 @@ echo "Installing dependencies..."
 sudo dnf install python3-pip fontawesome4-fonts maim xclip xdotool -y
 echo " "
 
+# Creating directory for cloned projects from GitHub
+echo "Creating directory for cloned projects from GitHub..."
+mkdir ~/github_projects
+echo " "
+
+# Handling wallpaper
+echo "Creating directory for wallpaper and screenshots..."
+mkdir ~/Pictures
+mkdir ~/Pictures/Screenshots
+echo " "
+echo "Applying wallpaper"
+cp wallpaper/yuri_wall.png ~/Pictures
+echo " "
+
 # Installing and configuring kitty
 echo "Installing kitty terminal..."
 sudo dnf install kitty -y
 echo " "
 echo "Moving the kitty config to ~/.config"
 cp -r .config/kitty ~/.config
-echo " "
-
-# Creating directory for cloned projects from GitHub
-echo "Creating directory for cloned projects from GitHub..."
-mkdir ~/github_projects
 echo " "
 
 # Handling GTK themes and icons
